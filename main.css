@@ -16,3 +16,8 @@
 .title-super{
     font-size: 60px;
 }
+.center-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
