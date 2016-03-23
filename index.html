@@ -4,14 +4,16 @@
       <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/main.css">
+      <script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
    <div class="container">
     <div class="row">
       <div class="col-md-6"><img class="title-logo" src="http://placehold.it/100x100"></div>
       <div class="col-md-6 text-right text-uppercase">
-        <h1 class="title-super text-thin">Jane Doette</h1>
-        <h4>Front-end Ninja</h4>
+        <h1 class="title-super text-thin">Ellen Mey</h1>
+        <h4>Front-end Beginner</h4>
       </div>
     </div>
     <div class="row">
@@ -29,8 +31,8 @@
     </div>
     <div class="row text-center">
       <div class="col-md-6">
-        <img src="http://placehold.it/555x300">
-        <h3>Appify</h3>
+        <img class="img-responsive" src="http://placehold.it/555x300" data-toggle="modal" data-target="#project1" >
+        <h3>Using Modals</h3>
         <p><a href="http://github.com">Link to project</a></p>
       </div>
       <div class="col-md-6">
@@ -51,6 +53,23 @@
         <p><a href="http://github.com">Link to project</a></p>
       </div>
     </div>
+</div>
+ <!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://fillmurray.com/550/250">
+        This was my first project in this class. I learned a lot about HTML and CSS.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
   </body>
 </html>
